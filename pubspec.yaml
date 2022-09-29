@@ -1,0 +1,88 @@
+name: noted_app
+description: Minimal note taking app
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.10.0
+  flutter_svg: ^1.1.5
+  flutter_native_splash: ^2.2.9
+  # Data Storage
+  shared_preferences: ^2.0.15
+  isar: 3.0.0-dev.14
+  isar_flutter_libs: 3.0.0-dev.14
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  isar_generator: 3.0.0-dev.14
+  build_runner: any
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icons/app-icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/icons/app-icon.png"
+    background_color: "#000000"
+    theme_color: "#000000"
+  windows:
+    generate: true
+    image_path: "assets/images/icons/app-icon.png"
+    icon_size: 48
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/images/icons/app-icon.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/splash/splash-icon.png
+  android_12:
+    color: "#000000"
+    image: assets/images/splash/splash-icon.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/app-ui/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-w400.otf
+          weight: 400
+        - asset: assets/fonts/Inter/Inter-w500.otf
+          weight: 500
+        - asset: assets/fonts/Inter/Inter-w600.otf
+          weight: 600
+        - asset: assets/fonts/Inter/Inter-w700.otf
+          weight: 700
+        - asset: assets/fonts/Inter/Inter-w800.otf
+          weight: 800
+        - asset: assets/fonts/Inter/Inter-w900.otf
+          weight: 900
+
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit/Outfit-w400.ttf
+          weight: 400
+        - asset: assets/fonts/Outfit/Outfit-w500.ttf
+          weight: 500
+        - asset: assets/fonts/Outfit/Outfit-w600.ttf
+          weight: 600
+        - asset: assets/fonts/Outfit/Outfit-w700.ttf
+          weight: 700
+        - asset: assets/fonts/Outfit/Outfit-w800.ttf
+          weight: 800
+        - asset: assets/fonts/Outfit/Outfit-w900.ttf
+          weight: 900

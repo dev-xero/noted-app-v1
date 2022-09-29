@@ -1,0 +1,12 @@
+- TODO: Implement the shared preferences plugin
+- TODO: Start designing the home screen
+- TODO: Debug and ensure that the code is working well thus far
+- TODO: Install the sqlflite plugin
+- TODO: Think of an algorithm to store user data<notes> and persist them
+- TODO: Work on the edit notes screen
+- TODO: Debug and ensure that the code is still working
+- TODO: Add the credits section
+- TODO: Publish to Github
+- TODO: Publish designs to Figma and Dribbble
+- TODO: Update socials on the app
+- TODO: Start using the app as a finished product
